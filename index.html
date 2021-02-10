@@ -13,7 +13,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/screen.css"> 
+    <link rel="stylesheet" href="css/screen.css">
 </head>
 
 <body>
@@ -21,8 +21,16 @@
         <h1>Hello world! This is my HTML5 boilerplate.</h1>
         <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the
             combined knowledge and effort of 100s of developers, all in one little package.</p>
+        <nav>
+            <ul>
+                <li><a href="#heading2">Heading 2</a></li>
+                <li><a href="#heading3 ">Heading 3</a></li>
+                <li><a href="#unorderedlist">Lists</a></li>
+                <li><a href="#table">Table</a></li>
+            </ul>
+        </nav>
     </header>
-    <h2>
+    <h2 id="heading2">
         Heading 2
     </h2>
     <p>
@@ -34,7 +42,7 @@
         <img src="img/yawning-cat.jpeg" alt="This is a picture of a yawning cat.">
         <figcaption>Yawning cat. Photo by Martina Misar</figcaption>
     </figure>
-    <h3>
+    <h3 is="heading3">
         Heading 3
     </h3>
     <p>
@@ -49,10 +57,10 @@
             specifies the location (in the form of a URI) where the quote has come from.
         </p>
     </blockquote>
-    <h3>
+    <h3 id="heading3">
         Styling lists is easy
     </h3>
-    <ul>
+    <ul id="unorderedlist">
         <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, totam.</li>
         <li>Excepturi suscipit rem enim maiores, vel perspiciatis sint quos reprehenderit?</li>
         <li>Ipsam praesentium quibusdam consequuntur, atque distinctio earum eius molestias repudiandae.</li>
@@ -65,9 +73,9 @@
         <p>By <strong>Daan De Wilde</strong></p>
     </footer>
 
-    <h2>Table</h2>
-    <table>
-        <tr>
+    <h2 id="heading2">Table</h2>
+    <table id="table">
+        <tr class="odd">
             <th>Country</th>
             <th>Capital</th>
             <th>Population</th>
@@ -80,7 +88,7 @@
             <td>309 million</td>
             <td>English</td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Sweden</td>
             <td>Stockholm</td>
             <td>9 million</td>
@@ -92,7 +100,7 @@
             <td>10 million</td>
             <td>French</td>
         </tr>
-        <tr>
+        <tr class="odd">
             <td>Germany</td>
             <td>Berlin</td>
             <td>9 million</td>
@@ -100,8 +108,8 @@
         </tr>
     </table>
 
-    <h2>Lijstje</h2>
-    <ul>
+    <h2 id="heading2">Lijstje</h2>
+    <ul id="unorderedlist">
         <li>Rood</li>
         <li>Oranje</li>
         <li>Geel</li>
